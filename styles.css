@@ -1,0 +1,81 @@
+/* General Reset */
+body, h1, div, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Header */
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+/* Container */
+#container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Stopwatch Display */
+#display {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Buttons */
+#controls button {
+    font-size: 1rem;
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#controls button:hover {
+    background-color: #0056b3;
+}
+
+/* Lap Container */
+#lapContainer {
+    margin-top: 20px;
+    text-align: left;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+#lapContainer h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#lapContainer div {
+    background: #e9ecef;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 3px;
+}
